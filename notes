@@ -12,8 +12,8 @@ Notes:
     [x] - pass props to GalleryItem.js
 
 [ ] - GalleryItem.js
-    [ ] - Import react, export, and import in GalleryList.js
-    [ ] - Conditional rendering between picture and description
+    [x] - Import react, export, and import in GalleryList.js
+    [x] - Conditional rendering between picture and description
     [ ] - Like button
     [ ] - axios PUT (inside of App.js?)
     [ ] - update gallery when 'like button' is clicked
