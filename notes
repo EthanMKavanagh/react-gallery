@@ -2,14 +2,14 @@ Notes:
 
 [x] - Add images to ./public/images
 
-[ ] - App.js
-    [ ] - axios GET call inside of componentDidMount
-    [ ] - pass props to GalleryList.js
+[x] - App.js
+    [x] - axios GET call inside of componentDidMount
+    [x] - pass props to GalleryList.js
 
-[ ] - GalleryList.js
-    [ ] - Import react, export, and import in App.js
-    [ ] - Loop through array
-    [ ] - pass props to GalleryItem.js
+[x] - GalleryList.js
+    [x] - Import react, export, and import in App.js
+    [x] - Loop through array aka .map()
+    [x] - pass props to GalleryItem.js
 
 [ ] - GalleryItem.js
     [ ] - Import react, export, and import in GalleryList.js

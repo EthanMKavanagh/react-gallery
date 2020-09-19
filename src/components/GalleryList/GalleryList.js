@@ -5,7 +5,14 @@ class GalleryList extends Component {
     render() {
         return (
             <div>
-                {this.props.gallery.map(galleryItem => <GalleryItem galleryItem={galleryItem}/>)}
+                {this.props.gallery.map(galleryItem =>
+                    <GalleryItem
+                        id={galleryItem.id}
+                        path={galleryItem.path}
+                        description={galleryItem.description}
+                        likes={galleryItem.likes}
+                    />
+                )}
             </div>
         );
     }
