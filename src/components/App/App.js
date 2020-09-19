@@ -27,6 +27,21 @@ class App extends Component {
     });
   }
 
+  onLike = (galleryId) => {
+    axios({
+      method: 'PUT',
+      url: `/gallery/${galleryId}`,
+      data: {
+        likes: galleryId
+      }
+    }).then(response => {
+      console.log('Inside of axios PUT');
+      this.getGallery();
+    }).catch(err => {
+      console.error('Error inside of axios PUT:', err);
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -34,7 +49,10 @@ class App extends Component {
           <h1 className="App-title">Gallery of Programming Memes!!!</h1>
         </header>
         <br/>
-        <GalleryList gallery={this.state.gallery}/>
+        <GalleryList 
+          gallery={this.state.gallery}
+          onLike={this.onLike}
+        />
       </div>
     );
   }

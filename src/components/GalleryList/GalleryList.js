@@ -11,6 +11,7 @@ class GalleryList extends Component {
                         path={galleryItem.path}
                         description={galleryItem.description}
                         likes={galleryItem.likes}
+                        onLike={this.props.onLike}
                     />
                 )}
             </div>

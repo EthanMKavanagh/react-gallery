@@ -13,22 +13,23 @@ class GalleryItem extends Component {
         });
     }
 
+    onLike = () => {
+        console.log('Inside of onLike');
+        
+    }
+
     render() {
         return (
-            <div key={this.props.id}>
-                {
-                    this.state.isDescription ?
-                        <div>{this.props.description}</div> :
-                        <div>{this.props.path}</div>
-                        
-                }
-                <button onClick={this.toggleDescription}>
+            <div>
+                <div key={this.props.id} onClick={this.toggleDescription}>
                     {
                         this.state.isDescription ?
-                            `Show Image` :
-                            `Show Description`
+                            <div>{this.props.description}</div> :
+                            <img src={this.props.path} />
+                            
                     }
-                </button>
+                </div>
+                <button onClick={() => this.props.onLike(this.props.id)}>Like: {this.props.likes}</button>
             </div>
         );
     }
