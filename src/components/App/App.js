@@ -1,8 +1,32 @@
 import React, { Component } from 'react';
 import './App.css';
+import axios from 'axios';
 import GalleryList from '../GalleryList/GalleryList';
 
 class App extends Component {
+
+  state = {
+    gallery: []
+  }
+
+  componentDidMount = () => {
+    this.getGallery();
+  }
+
+  getGallery = () => {
+    axios({
+      method: 'GET',
+      url: '/gallery',
+    }).then(response => {
+      console.log('Inside of axios GET');
+      this.setState({
+        gallery: response.data
+      });
+    }).catch(err => {
+      console.error('Error in axios GET:', err)
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -10,12 +34,7 @@ class App extends Component {
           <h1 className="App-title">Gallery of my life</h1>
         </header>
         <br/>
-        <GalleryList />
-        <img src="images/bill-gates-meme-your-mama-is-so-fat.png"/>
-        <img src="images/Meme.jpg"/>
-        <img src="images/programming-meme-2.png" />
-        <img src="images/react-meme.png" />
-        <img src="images/Thor-compiling-meme.png" />
+        <GalleryList gallery={this.state.gallery}/>
       </div>
     );
   }

@@ -4,9 +4,9 @@ import GalleryItem from '../GalleryItem/GalleryItem';
 class GalleryList extends Component {
     render() {
         return (
-            <ul>
-                <GalleryItem />
-            </ul>
+            <div>
+                {this.props.gallery.map(galleryItem => <GalleryItem galleryItem={galleryItem}/>)}
+            </div>
         );
     }
 }
