@@ -1,0 +1,19 @@
+Notes:
+
+[x] - Add images to ./public/images
+
+[ ] - App.js
+    [ ] - axios GET call inside of componentDidMount
+    [ ] - pass props to GalleryList.js
+
+[ ] - GalleryList.js
+    [ ] - Import react, export, and import in App.js
+    [ ] - Loop through array
+    [ ] - pass props to GalleryItem.js
+
+[ ] - GalleryItem.js
+    [ ] - Import react, export, and import in GalleryList.js
+    [ ] - Conditional rendering between picture and description
+    [ ] - Like button
+    [ ] - axios PUT (inside of App.js?)
+    [ ] - update gallery when 'like button' is clicked
