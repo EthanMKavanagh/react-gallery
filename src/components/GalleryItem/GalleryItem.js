@@ -16,12 +16,12 @@ class GalleryItem extends Component {
 
     render() {
         return (
-            <div>
+            <div className='item'>
                 <div key={this.props.id} onClick={this.toggleDescription}>
                     {
                         this.state.isDescription ?
-                            <div>{this.props.description}</div> :
-                            <img src={this.props.path}/>
+                            <div className='descriptionDisplay'>{this.props.description}</div> :
+                            <img className='imageDisplay' alt={this.props.description} src={this.props.path}/>
                             
                     }
                 </div>

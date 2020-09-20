@@ -1,0 +1,18 @@
+.item {
+    float: left;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.descriptionDisplay {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.imageDisplay {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+}

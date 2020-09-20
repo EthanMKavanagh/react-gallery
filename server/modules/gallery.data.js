@@ -2,7 +2,7 @@ const galleryItems = [
     {
         id: 1,
         path: 'images/clicker.jpeg',
-        description: 'Downloading...click!',
+        description: 'Downloading ...click!',
         likes: 0
     },
     {
