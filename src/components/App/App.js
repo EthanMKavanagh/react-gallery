@@ -30,7 +30,7 @@ class App extends Component {
   onLike = (galleryId) => {
     axios({
       method: 'PUT',
-      url: `/gallery/like/${galleryId}`,
+      url: `/gallery/like/${galleryId}`
     }).then(response => {
       console.log('Inside of axios PUT');
       this.getGallery();

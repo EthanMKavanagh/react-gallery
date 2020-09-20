@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import GalleryItem from '../GalleryItem/GalleryItem';
+import './GalleryList.css';
 
 class GalleryList extends Component {
     render() {
         return (
-            <div>
+            <div className='galleryList'>
                 {this.props.gallery.map(galleryItem =>
                     <GalleryItem
                         id={galleryItem.id}

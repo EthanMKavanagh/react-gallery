@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './GalleryItem.css';
 
 class GalleryItem extends Component {
 
@@ -13,11 +14,6 @@ class GalleryItem extends Component {
         });
     }
 
-    onLike = () => {
-        console.log('Inside of onLike');
-        
-    }
-
     render() {
         return (
             <div>
@@ -25,7 +21,7 @@ class GalleryItem extends Component {
                     {
                         this.state.isDescription ?
                             <div>{this.props.description}</div> :
-                            <img src={this.props.path} />
+                            <img src={this.props.path}/>
                             
                     }
                 </div>
