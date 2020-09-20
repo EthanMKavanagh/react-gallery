@@ -11,9 +11,9 @@ Notes:
     [x] - Loop through array aka .map()
     [x] - pass props to GalleryItem.js
 
-[ ] - GalleryItem.js
+[x] - GalleryItem.js
     [x] - Import react, export, and import in GalleryList.js
     [x] - Conditional rendering between picture and description
-    [ ] - Like button
-    [ ] - axios PUT (inside of App.js?)
-    [ ] - update gallery when 'like button' is clicked
+    [x] - Like button
+    [x] - axios PUT (inside of App.js?)
+    [x] - update gallery when 'like button' is clicked

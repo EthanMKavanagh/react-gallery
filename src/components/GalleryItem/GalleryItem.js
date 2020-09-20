@@ -29,7 +29,8 @@ class GalleryItem extends Component {
                             
                     }
                 </div>
-                <button onClick={() => this.props.onLike(this.props.id)}>Like: {this.props.likes}</button>
+                <button onClick={() => this.props.onLike(this.props.id)}>Like</button>
+                <p>Likes: {this.props.likes}</p>
             </div>
         );
     }

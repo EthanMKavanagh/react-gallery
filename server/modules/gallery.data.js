@@ -1,26 +1,32 @@
 const galleryItems = [
     {
         id: 1,
-        path: 'images/Meme.jpg',
-        description: 'Who made the compiler angry???',
+        path: 'images/clicker.jpeg',
+        description: 'Downloading...click!',
         likes: 0
     },
     {
         id: 2,
-        path: 'images/programming-meme-2.png',
-        description: 'Anyone speak Elvish?',
+        path: 'images/girl.png',
+        description: 'Like my hair?',
         likes: 0
     },
     {
         id: 3,
-        path: 'images/react-meme.png',
-        description: 'Fancy....',
+        path: 'images/mushroom.png',
+        description: 'Mario 1+ up',
         likes: 0
     },
     {
         id: 4,
-        path: 'images/Thor-compiling-meme.png',
-        description: 'Imagine being worthy lmao',
+        path: 'images/smiley.png',
+        description: 'Smile for the camera!',
+        likes: 0
+    },
+    {
+        id: 5,
+        path: 'images/voltorb.png',
+        description: 'Pokemon raging with electricity.',
         likes: 0
     }
 ];

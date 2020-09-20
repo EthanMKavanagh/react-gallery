@@ -30,10 +30,7 @@ class App extends Component {
   onLike = (galleryId) => {
     axios({
       method: 'PUT',
-      url: `/gallery/${galleryId}`,
-      data: {
-        likes: galleryId
-      }
+      url: `/gallery/like/${galleryId}`,
     }).then(response => {
       console.log('Inside of axios PUT');
       this.getGallery();
@@ -46,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of Programming Memes!!!</h1>
+          <h1 className="App-title">~ Gallery of Pictures ~</h1>
         </header>
         <br/>
         <GalleryList 
