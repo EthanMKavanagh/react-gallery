@@ -25,7 +25,7 @@ Clicking on the image toggles between the image and its caption. The 'Like' butt
 - Node.js
 
 ## Acknowledgment
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped me with the skills needed to make this application.
+Thanks to [Prime Digital Academy](https://primeacademy.io/?utm_campaign=brand_search&utm_medium=cpc&utm_source=google&utm_medium=ppc&utm_campaign=Brand+Search&utm_term=prime%20digital&utm_source=adwords&hsa_mt=p&hsa_kw=prime%20digital&hsa_grp=34455376016&hsa_tgt=kwd-18367450681&hsa_ad=260264094213&hsa_ver=3&hsa_acc=5885076177&hsa_cam=670836869&hsa_src=g&hsa_net=adwords&gclid=EAIaIQobChMIn83dj9j46wIVE9bACh1EhQDHEAAYASAAEgIDIvD_BwE) who equipped me with the skills needed to make this application.
 
 ## Support
 If you have any suggestions or issues, please contact me by email at [ethanmkavanagh@outlook.com](www.google.com).
